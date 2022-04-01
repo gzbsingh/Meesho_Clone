@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/checkout_navbar.css">
+    
+</head>
+
+<body>
+    <div class="checkout_cantainer">
+        <!-- navbar start -->
+        <div class="checkout_navbar">
+            <div class="checkout_layer">
+                <div class="checkout_logo" style="margin-left: 10px">
+                    <img src="https://2ballz.in/assets/images/meesho.png" width="156"
+                        height="36">
+                </div>
+                <div class="checkout_tabs">
+                    <hr class="c_line">
+                    <div class="tabs_container">
+
+                        <div class="tabs_1">
+                            <p class="c_p" >1</p>
+                            <span class="Text">Cart</span>
+
+                        </div>
+                        <div class="tabs_2">
+                            <p class="c_p" id="add_logo">2</p>
+                            <span class="Text">Address</span>
+
+                        </div>
+                        <div class="tabs_3">
+                            <p class="c_p">3</p>
+                            <span class="Text">Payment</span>
+
+                        </div>
+                        <div class="tabs_4">
+                            <p class="c_p">4</p>
+                            <span class="Text">Summary</span>
+
+                        </div>
+                       
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider"> </div>
+        </div>
+        <!-- navbar end -->
+        <div class="address_container">
+            <div class="address_la_1">
+                <div class="address_la_1_0">
+                    <div class="deliver_address">
+                        <span color="greyBase" class="Text_" font-size="18px" font-weight="demi">Select Delivery
+                            Address</span>
+                        <div class="form_div">
+                            <form class="address_form" id="myform">
+                                <div class="part1">
+                                    <div class="contact">
+                                        <img src="https://banner2.cleanpng.com/20191116/iix/transparent-contacts-icon-telephone-icon-phone-call-icon-5dd020eaca1532.2146046515739210028277.jpg"
+                                            width="20" height="20">
+                                        <h6 class="text_style">contact details</h6>
+                                    </div>
+                                    <div class="name_card">
+                                        <p>Name</p>
+                                        <input type="text" id="name" required>
+                                    </div>
+                                    <div class="number_card">
+                                        <p>Phone Number</p>
+                                        <input type="number" id="phone" maxlength="10" required>
+
+                                    </div>
+                                </div>
+                                <div class="part2">
+                                    <div class="address_edit contact">
+                                        <img src="https://png.pngtree.com/png-clipart/20190705/original/pngtree-vector-location-icon-png-image_4231903.jpg"
+                                            width="20" height="20">
+                                        <h6 class="text_style">Address</h6>
+                                    </div>
+                                    <div class="h_mark">
+                                        <p>House no./Building Name</p>
+                                        <input type="text" id="house_mark" required>
+                                    </div>
+                                    <div class="R_area">
+                                        <p>Road Name/ Area/ Colony</p>
+                                        <input type="text" id="colony" required>
+                                    </div>
+                                    <div class="pin_code">
+                                        <p>Pincode</p>
+                                        <input type="number" id="pincode" required>
+                                    </div>
+                                    <div class="city_state">
+                                        <div class="city_class">
+                                            <p>City</p>
+                                            <input id="city" type="text" required>
+                                        </div>
+                                        <div class="state_class">
+                                            <p>State</p>
+                                            <select id="states">
+                                                <option>    </option>
+                                            </select>
+                                           
+                                        </div>
+                                    </div>
+                                    <div class="land_mark">
+                                        <div>
+                                            <p>Nearly Location(optional)</p>
+                                            <input type="text" id="landmark">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <div class="button_prop">
+                                        <input type="submit" class="submit_button">
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+
+                    </div>
+
+                    <div class="price_container">
+                        <div class="Divider"></div>
+                        <div class="price_detail">
+                            <div class="price_deatils_A">
+                                <div class="pl_0">
+                                    <!-- style width="inherit" -->
+                                    <div class="pl_1">
+                                        <span color="greyBase" class="Text_" font-size="18px" font-weight="demi">Price
+                                            Details</span>
+                                        <div class="pl_1A">
+                                            <div class="pl_1Aa pl_c">
+                                                <p class="parag">Product Charges</p>
+                                                <p class="parag"> </p>
+                                            </div>
+                                            <div class="pl_1Aa pl_c">
+                                                <div class="pl_1Aaa">
+                                                    <p class="parag">Deliver Charges</p>
+                                                    <p class="parag"></p>
+                                                </div>
+
+                                            </div>
+                                            <div class="pl_1Aa pl_c">
+                                                <p class="parag">COD Charges</p>
+                                                <p class="parag"></p>
+                                            </div>
+                                            <div class="pl_1Aa pl_c">
+                                                <p class="parag">Ist Order discount </p>
+                                                <p class="parag"> </p>
+                                            </div>
+                                        </div>
+                                        <div class="divider">
+
+                                        </div>
+                                        <div class="pl_1B">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./script/checkout.js"></script>
+</body>
+
+</html>
